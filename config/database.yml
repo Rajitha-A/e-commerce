@@ -14,10 +14,11 @@ production:
   port: 5432
   database: gamming_app
 
-staging:
-  adapter: mysql3
-  username: root
-  password: mohan
+test:
+  adapter: postgresql
+  username: postgres
+  password: postgres
   host: localhost
+  port: 5432
   database: gamming_app
 
